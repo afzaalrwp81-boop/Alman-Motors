@@ -213,26 +213,28 @@
         </div>
         <div class="col-12 col-sm-12 col-md-7 col-lg-7 ">
           <h3 class="text-center text-white">Contact Form</h3>
-          <form action="">
-            <div class="mb-3 text-white">
-    <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="email" class="form-control text" required id="exampleInputEmail1" aria-describedby="emailHelp">
-    
-  </div>
-  <div class="mb-3  text-white">
-    <label for="exampleInputPassword1" class="form-label">Password</label>
-    <input type="password" required class="form-control" id="exampleInputPassword1">
-  </div>
-  <div class="text-white">
-  <label for="">Message US</label>
- 
-    
-  <textarea class="form-control" rows="4" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-  </div>
-   <div class="mt-3">
-    <button class="btn btn-dark" type="submit">Submit</button>
-   </div>
+
+    <form  action="">
+        <div class="mb-3 text-white">
+            <label for="Email" class="form-label">Email address</label>
+            <input type="email" id="useremail" class="form-control text"   autocomplete="off">
+            <div class="emailerror text-warning" id="mailerror"></div>
+        </div>
+        <div class="mb-3  text-white">
+            <label for="Password" class="form-label">Password</label>
+            <input type="password" autocomplete="off" class="form-control" id="Password">
+            <div class="passworderror text-warning" id="perror"></div>
+        </div>
+        <div class="text-white">
+             <label for="">Message US</label>
+            <textarea class="form-control"  autocomplete="off" rows="4" placeholder="Leave a comment here" id="Textarea"></textarea>
+            <div class="textareaerror" id="arearerror"></div>
+        </div>
+        <div class="mt-3">
+           <button class="btn btn-dark submit" type="submit">Submit</button>
+        </div>
           </form>
+          <script src="index.js"></script>
         </div>
       </div>
      </div>

@@ -40,7 +40,7 @@ transform: scaleX(1);
 .Ownerpic{
  width: 100%;
   max-width: 300px;
-  height: auto;
+  height: 400px;;
   margin-left: 0;
  
 border: 1px solid;
